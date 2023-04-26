@@ -35,8 +35,8 @@ class GoodHabitToRaise(models.Model):
 
     def send_overdue_message(self):
         # Your Nexmo API key and secret
-        api_key = "681b57fb"
-        api_secret = "gHoGlquaUTmNt3vY"
+        api_key = "****"
+        api_secret = "****"
         # Your Nexmo virtual phone number
         nexmo_phone_number = "21692144354"
         # Recipient's phone number in international format without leading '+'
