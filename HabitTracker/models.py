@@ -38,9 +38,9 @@ class GoodHabitToRaise(models.Model):
         api_key = "****"
         api_secret = "****"
         # Your Nexmo virtual phone number
-        nexmo_phone_number = "21692144354"
+        nexmo_phone_number = "******"
         # Recipient's phone number in international format without leading '+'
-        recipient_phone_number = "+21628056362"
+        recipient_phone_number = "+*****"
 
         if self.is_overdue():
             client = nexmo.Client(key=api_key, secret=api_secret)
